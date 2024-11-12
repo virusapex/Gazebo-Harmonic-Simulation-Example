@@ -20,7 +20,12 @@ def generate_static_tf_publisher_node(parentFrame, childFrame):
         package="tf2_ros",
         executable="static_transform_publisher",
         name=f"static_tf_publisher_{parentFrame}",
-        arguments=["0", "0", "0", "0", "0", "0", parentFrame, childFrame],
+        arguments=[
+            "--x", "0", "--y", "0", "--z", "0",
+            "--roll", "0", "--pitch", "0", "--yaw", "0",
+            "--frame-id", parentFrame,
+            "--child-frame-id", childFrame
+        ],
         parameters=[{"use_sim_time": True}],
     )
 
