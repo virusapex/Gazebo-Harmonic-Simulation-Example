@@ -1,12 +1,12 @@
-# Gazebo Garden Simulation Example
+# Gazebo Harmonic Simulation Example
 
-This is a simple example of using gazebo garden for ROS simulation.
+This is a simple example of using gazebo harmonic for ROS2 Humble Navigation stack.
 
 ## Pre-requisites
 
-- Install Gazebo Garden from [https://gazebosim.org/docs/garden/install_ubuntu](https://gazebosim.org/docs/garden/install_ubuntu)
-- Install Slam Toolbox [https://github.com/SteveMacenski/slam_toolbox](https://github.com/SteveMacenski/slam_toolbox)
-- Install Nav2 [https://navigation.ros.org/getting_started/index.html#installation](https://navigation.ros.org/getting_started/index.html#installation)
+- You should already have Gazebo Harmonic installed, consult [Gazebo Harmonic with ROS 2 Humble, Iron or Rolling](https://gazebosim.org/docs/latest/ros_installation/#gazebo-harmonic-with-ros-2-humble-iron-or-rolling-use-with-caution)
+- Install Slam Toolbox ```sudo apt install ros-humble-slam-toolbox```
+- Install Nav2 [https://docs.nav2.org/getting_started/index.html#installation](https://docs.nav2.org/getting_started/index.html#installation)
 
 ## Running the simulation
 
